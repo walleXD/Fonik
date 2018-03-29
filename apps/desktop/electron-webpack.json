@@ -1,0 +1,15 @@
+{
+  "renderer": {
+    "dll": [
+      "react",
+      "react-dom",
+      "react-redux",
+      "redux",
+      "react-router-dom",
+      "react-hot-loader",
+      "react-redux-firebase",
+      "redux-firestore",
+      "rxjs"
+    ]
+  }
+}

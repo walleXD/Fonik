@@ -1,0 +1,29 @@
+{
+  "presets": ["@babel/es2017", "@babel/stage-0", "@babel/react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "babel-plugin-transform-decorators-legacy"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "inline-dotenv",
+          {
+            "path": ".env.development"
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "inline-dotenv",
+          {
+            "path": ".env"
+          }
+        ]
+      ]
+    }
+  }
+}
